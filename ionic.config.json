@@ -1,0 +1,7 @@
+{
+  "name": "Healspace",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

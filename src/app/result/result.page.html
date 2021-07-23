@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <nav id="aboutnav"> 
+        <ion-img (click)="home()" src="assets/img/logo.png"></ion-img>
+       <div id="aboutlist">
+         <ul>
+             <ion-icon (click)="home()" name="home"></ion-icon>
+         </ul> 
+       </div>
+     </nav>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content class="body">
+     <img src="https://media.giphy.com/media/249FaNnqGefgvA8Xwu/giphy.gif">
+<ion-card class="result">
+   {{depressionScale}}
+</ion-card>
+
+<ion-card class="mc">
+  <p class="ma" >Make Appointment Now</p>
+  <ion-card class="info">
+    <p>Contact Information:</p>
+    <a href="https://www.facebook.com/healspacelipa/">Facebook</a>
+    <p>+639270349050</p>
+    <p>2nd Floor Jiao Medical Clinic, Lobrin Subdivision, Brgy. Sico, Lipa City, Batangas</p>
+  </ion-card>
+  <br>
+</ion-card>
+
+</ion-content>
